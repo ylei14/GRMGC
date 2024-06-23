@@ -3,5 +3,6 @@ Construction of the microbial reference gene catalog and metagenomic assembled g
 # INSTALLATION
 Before running, please ensure that the appropriate software and databases are installed.
 ## Software installation
-|Software|Availability|
+|Software   |Availability   |
 |--|--|
+fastp(v0.20.0)   |https://github.com/OpenGene/fastp   |
