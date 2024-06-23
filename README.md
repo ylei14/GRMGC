@@ -23,4 +23,5 @@ Before running, please ensure that the appropriate software and databases are in
 |GTDB-tk(2.3.0)   |http://gtdb.ecogenomic.org/   |
 |PhyloPhlAn(v3.0.67)   |https://github.com/biobakery/phylophlan   |
 |BLASTP(v2.14.1+)   |https://blast.ncbi.nlm.nih.gov/Blast.cgi   |
+Note: Some software is easier to use when configured in a virtual environment, such as MetaWRAP and KofamScan.
 
