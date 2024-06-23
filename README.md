@@ -26,3 +26,23 @@ Before running, please ensure that the appropriate software and databases are in
 
 Note: Some software is easier to use when configured in a virtual environment, such as MetaWRAP and KofamScan.
 ## Database installation
+|Database   |Version   |Description   |Availability   |
+|--|--|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |  |
+|   |   |
+|   |   |
+|   |  |
+|   |   |
+|  |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
