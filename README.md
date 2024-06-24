@@ -28,7 +28,7 @@ Before running, please ensure that the appropriate software and databases are in
 Note: Some software is easier to use when configured in a virtual environment, such as MetaWRAP and KofamScan.
 ## Database installation
 |Database   |Version   |Description   |Availability   |
-|--|--|
+|--|--|--|--|
 |goat   |Genome assembly ARS1.2   |Goat reference genome   |https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001704415.2/|
 |NCBI-nr   | 20221012  |Protein database   |https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/   |
 |EggNOG   |EggNOG5.0   |EggNOG annotation	|http://eggnog5.embl.de/#/app/downloads  |
