@@ -16,6 +16,7 @@ Before running, please ensure that the appropriate software and databases are in
 |EMBOSS Transeq(v6.6.0.0)   |http://emboss.sourceforge.net/apps/cvs/emboss/apps/transeq.html  |
 |SOAPaligner(v2.21)   |https://github.com/ShujiaHuang/SOAPaligner   |
 |DIAMOND(v2.1.8.162)   |https://github.com/bbuchfink/diamond/   |
+|eggnog-mapper(v2.1.11)   |http://eggnog5.embl.de/   |
 |KOfamScan(v1.1.0)   |https://github.com/takaram/kofam_scan   |
 |eggnog-mapper(v2.1.11)   |http://eggnog5.embl.de/   |
 |metawrap(v1.3.2)   |https://github.com/bxlab/metaWRAP   |
@@ -28,21 +29,11 @@ Note: Some software is easier to use when configured in a virtual environment, s
 ## Database installation
 |Database   |Version   |Description   |Availability   |
 |--|--|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |  |
-|   |   |
-|   |   |
-|   |  |
-|   |   |
-|  |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|goat   |Genome assembly ARS1.2   |Goat reference genome   |https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001704415.2/|
+|NCBI-nr   | 20221012  |Protein database   |https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/   |
+|EggNOG   |EggNOG5.0   |EggNOG annotation	|http://eggnog5.embl.de/#/app/downloads  |
+|CARD   |v3.0.9   |CARD annotion   |https://card.mcmaster.ca   |   
+|VFDB   |20200703   |VFDB annotion   |http://www.mgc.ac.cn/VFs/main.htm   |
+|GTDB-tk   |release214    |Taxonomic assignments of MAGs   |https://gtdb.ecogenomic.org/downloads   |
+
+Note: Update the database versions if necessary.
