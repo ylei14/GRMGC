@@ -37,3 +37,20 @@ Note: Some software is easier to use when configured in a virtual environment, s
 |GTDB-tk   |release214    |Taxonomic assignments of MAGs   |https://gtdb.ecogenomic.org/downloads   |
 
 Note: Update the database versions if necessary.
+
+# Overview of the scripts
+## 01_data_preparation.sh
+Metagenomic raw data processing: reads trimming and DNA contamination removal, generating high-quality data.
+## 02_Assembly.sh
+Assembly: assemble short reads into contigs.
+## 03_Genecatalog.sh
+Construct non-redundant gene catalog: predict ORFs and remove redundancy to build the non-redundant gene catalog.
+## 04_Taxonomy.sh
+Taxonomic annotation: align protein sequences from the non-redundant gene catalog to the NCBI-nr database to obtain taxonomic annotation information.
+## 05_Function.sh
+Functional annotation: align protein sequences from the non-redundant gene catalog to the eggNOG, KEGG, CAZy, CARD, and VFDB databases to obtain functional annotation 
+information.
+## 06_Genome_reconstraction.sh
+The steps related to the reconstruction of metagenome-assembled genomes (MAGs) are outlined in this section. Binning, refining, reassembling, annotating genomes, and estimating MAG abundances were carried out using the modules of the metaWRAP pipeline. MAG dereplication was performed using dRep software. Taxonomic classification and phylogenetic analysis were conducted with GTDB-tk and PhyloPhlAn, respectively.
+
+Note: many custom scripts were involved in the analysis process. Please contact me for access.
